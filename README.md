@@ -1,5 +1,5 @@
 <div align="center">
-<h1>dockview</h1>
+<h1>dockview-tailwind</h1>
 
 <p>Zero dependency layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue and Vanilla TypeScript</p>
 
