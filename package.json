@@ -1,85 +1,85 @@
 {
-  "name": "dockview-monorepo-root",
-  "private": true,
-  "description": "Monorepo for https://github.com/mathuo/dockview",
-  "homepage": "https://github.com/mathuo/dockview#readme",
-  "bugs": {
-    "url": "https://github.com/mathuo/dockview/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mathuo/dockview.git"
-  },
-  "license": "MIT",
-  "author": "https://github.com/mathuo",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "lerna run build --scope '{dockview-core,dockview,dockview-vue,dockview-react}'",
-    "clean": "lerna run clean",
-    "docs": "typedoc",
-    "generate-docs": "node scripts/docs.mjs",
-    "lint": "eslint packages/**/src/** --ext .ts,.tsx,.js,.jsx",
-    "package": "node scripts/package.js",
-    "package-docs": "node scripts/package-docs.js",
-    "set-experimental-versions": "node scripts/set-experimental-versions",
-    "test": "jest",
-    "test:cov": "jest --coverage",
-    "version": "lerna version"
-  },
-  "resolutions": {
-    "@types/react": "^18.2.46",
-    "@types/react-dom": "^18.2.18"
-  },
-  "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.5",
-    "@testing-library/dom": "^9.3.3",
-    "@testing-library/jest-dom": "^6.1.6",
-    "@testing-library/react": "^14.1.2",
-    "@total-typescript/shoehorn": "^0.1.1",
-    "@types/jest": "^29.5.11",
-    "@types/react": "^18.2.46",
-    "@types/react-dom": "^18.2.18",
-    "@typescript-eslint/eslint-plugin": "^6.17.0",
-    "@typescript-eslint/parser": "^6.17.0",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/tsconfig": "^0.5.1",
-    "concurrently": "^8.2.2",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.56.0",
-    "fs-extra": "^11.2.0",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-dart-sass": "^1.1.0",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "jest-sonar-reporter": "^2.0.0",
-    "jsdom": "^23.0.1",
-    "lerna": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rimraf": "^5.0.5",
-    "rollup": "^4.9.2",
-    "rollup-plugin-postcss": "^4.0.2",
-    "ts-jest": "^29.1.1",
-    "ts-loader": "^9.5.1",
-    "ts-node": "^10.9.2",
-    "tslib": "^2.6.2",
-    "typedoc": "^0.25.6",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.5",
-    "vue": "^3.4.21",
-    "vue-sfc-loader": "^0.1.0",
-    "vue-tsc": "^2.0.5"
-  },
-  "engines": {
-    "node": ">=18.0"
-  },
-  "dependencies": {
-    "ag-grid-vue3": "^31.1.1"
-  },
-  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+    "name": "dockview-monorepo-root",
+    "private": true,
+    "description": "Monorepo for https://github.com/mathuo/dockview",
+    "homepage": "https://github.com/mathuo/dockview#readme",
+    "bugs": {
+        "url": "https://github.com/mathuo/dockview/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mathuo/dockview.git"
+    },
+    "license": "MIT",
+    "author": "https://github.com/mathuo",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "lerna run build --scope '{dockview-core,dockview,dockview-vue,dockview-react}'",
+        "clean": "lerna run clean",
+        "docs": "typedoc",
+        "generate-docs": "node scripts/docs.mjs",
+        "lint": "eslint packages/**/src/** --ext .ts,.tsx,.js,.jsx",
+        "package": "node scripts/package.js",
+        "package-docs": "node scripts/package-docs.js",
+        "set-experimental-versions": "node scripts/set-experimental-versions",
+        "test": "jest",
+        "test:cov": "jest --coverage",
+        "version": "lerna version"
+    },
+    "resolutions": {
+        "@types/react": "^18.2.46",
+        "@types/react-dom": "^18.2.18"
+    },
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.5",
+        "@testing-library/dom": "^9.3.3",
+        "@testing-library/jest-dom": "^6.1.6",
+        "@testing-library/react": "^14.1.2",
+        "@total-typescript/shoehorn": "^0.1.1",
+        "@types/jest": "^29.5.11",
+        "@types/react": "^18.2.46",
+        "@types/react-dom": "^18.2.18",
+        "@typescript-eslint/eslint-plugin": "^6.17.0",
+        "@typescript-eslint/parser": "^6.17.0",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/tsconfig": "^0.5.1",
+        "concurrently": "^8.2.2",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.56.0",
+        "fs-extra": "^11.2.0",
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-dart-sass": "^1.1.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "jest-sonar-reporter": "^2.0.0",
+        "jsdom": "^23.0.1",
+        "lerna": "^8.0.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "rimraf": "^5.0.5",
+        "rollup": "^4.9.2",
+        "rollup-plugin-postcss": "^4.0.2",
+        "ts-jest": "^29.1.1",
+        "ts-loader": "^9.5.1",
+        "ts-node": "^10.9.2",
+        "tslib": "^2.6.2",
+        "typedoc": "^0.25.6",
+        "typescript": "^5.3.3",
+        "vite": "^5.1.5",
+        "vue": "^3.4.21",
+        "vue-sfc-loader": "^0.1.0",
+        "vue-tsc": "^2.0.5"
+    },
+    "engines": {
+        "node": ">=18.0"
+    },
+    "dependencies": {
+        "ag-grid-vue3": "^31.1.1"
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
